@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sliceTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice-to@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-slice-to/tags). For example,
+
+```javascript
 import sliceTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice-to@v0.1.0-deno/mod.js';
 ```
 
@@ -204,7 +209,7 @@ arr = ndarray2array( y );
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import sliceTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice-to@v0.1.0-deno/mod.js';
+import sliceTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice-to@deno/mod.js';
 
 // Create a linear ndarray buffer:
 var buf = zeroTo( 27 );
