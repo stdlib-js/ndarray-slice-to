@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-19)
+## Unreleased (2026-10-02)
+
+<section class="features">
+
+### Features
+
+-   [`682a1f9`](https://github.com/stdlib-js/stdlib/commit/682a1f9c78b6af207258e6211089f76ceb3e8e44) - add float16 dtype support to `ndarray/slice-to` [(#15747)](https://github.com/stdlib-js/stdlib/pull/15747)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`682a1f9`](https://github.com/stdlib-js/stdlib/commit/682a1f9c78b6af207258e6211089f76ceb3e8e44) - **feat:** add float16 dtype support to `ndarray/slice-to` [(#15747)](https://github.com/stdlib-js/stdlib/pull/15747) _(by Samarth Kolarkar)_
 -   [`5aadc76`](https://github.com/stdlib-js/stdlib/commit/5aadc76d03d8e3c511de2f14131be73dfe118af9) - **bench:** refactor to use string interpolation in `ndarray` [(#11445)](https://github.com/stdlib-js/stdlib/pull/11445) _(by Karan Anand)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Samarth Kolarkar
 
 </section>
 
